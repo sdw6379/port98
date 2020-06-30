@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'S-CoreDream-2ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face { font-family: 'S-CoreDream-6Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+
+/* 레이아웃 */
+body {
+    overflow-x: hidden;
+    font-family: 'S-CoreDream-2ExtraLight';
+    background: #000;
+}
+#section1 {width: 100vw; height:4700px;}
+#section2 {width: 100vw;height: 5000px;}
+#section3 {width: 100vw;}
+
+.pageYOffset{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 1vh;
+    z-index: 100;
+}
+
+/* section1 */
+#section1{
+    transform: translate(0%, 0%)
+}
+.sec1 {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 2vh;
+    background: #B1B1B0; margin: 3vh; font-family: "Montserrat";
+}
+.sec1 span {
+    font-size: 3vh;
+    display: block;
+    padding-top: 3vh;
+}
+.sec1 h1 {
+    font-size: 13vh;
+    line-height: .8;
+    font-weight: 800;
+    padding: 1vh 0; 
+}
+.sec1 h1 p{
+
+}
+.sec1 .img {
+    border: 3.5vh solid #2D2D2D;
+    margin: 0 auto;
+    width: 100vh;
+    color: #B1B1B0;
+    font-size: 2vh;
+    position: relative;
+    z-index: 1000;
+}
+.sec1 .img p {
+    font-family: 'S-CoreDream-2ExtraLight';
+    background: #2D2D2D;
+    font-size: 2vh;
+    text-align: justify;
+}
+.info{
+    
+    background: #2D2D2D;    
+    padding: 5vh 0 3vh ;
+
+    border-bottom: 1px #FFFFFF solid;
+}
+.info-img{
+    background-image: url(../img/icon1.png);
+    background-size: cover;
+    margin: 0 auto;
+    width: 10vw;height: 20vh;
+}
+
+.info-text{
+    text-align: center;
+}
+.info-text span{
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+.info2{
+    background: #2D2D2D;
+}
+.info2 ul {
+    display: flex;
+    justify-content:space-between ;
+}
+.info2 ul li a{
+    display: inline-block;
+    margin: 1vh 0;
+    font-size: 3vh;
+    color: #ffffff;
+    font-weight: 200;
+    text-transform: none;
+}
+.transform{
+
+}
+.transform .ddr{
+    background: #EFE74B;
+    padding-top: 1vh;
+    transform-origin: right;
+    transform:translateX(30%) rotate(0deg);
+    
+
+}
+.transform .ddr ul{
+    display: flex; 
+    align-items: center;
+    
+}
+.transform .ddr ul li{
+    font-family: 'S-CoreDream-6Bold';
+    font-size: 5vh;
+text-transform: uppercase;
+margin-left: 2.5vh;
+}
+
+
+.work{
+    
+
+}
+.work-l{
+    font-family: "Montserrat";
+    position: absolute;
+    bottom: 1vh; left: 8vh;
+    font-size: 3vh;
+    font-weight: 400;
+}
+.work-r{
+    font-family: "Montserrat";
+    position: absolute;
+    bottom:1vh; right: 8vh;
+    font-size: 3vh;
+    font-weight: 400;
+}
+
+
+
+/* section2 */
+
+#section2{
+    position: relative;
+}
+#section2 p{
+
+font-family: "Montserrat";
+font-weight: 800;
+line-height: 10vw;
+text-align: center;
+font-size: 10vw;
+color: #4E4E4F;
+opacity: 0.5;
+}
+
+
+.site{
+    background: #fff;
+    border: 1vw solid #fff;
+    width: 35vw;
+    font-family: 'S-CoreDream-6Bold';
+}
+.site h2{
+    font-weight: bolder;
+    font-size: 3vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+.site span{
+    font-size: 1.5vw; margin: 2vw 0 2vw 1.5vw;
+    display: inline-block;font-family: 'S-CoreDream-2ExtraLight';
+    font-weight: 200;
+}
+.site strong{
+    display: inline-block;
+    margin: 2vw;
+    width: 29vw;
+    height: 20vw;
+    overflow: hidden;
+}
+.site1{
+    position: absolute;
+    left: 12vw; top: 10vw;
+    transform: translate(0%, 0%)
+}
+.site2{
+    position: absolute;
+    right: 8vw;
+    top: 60vw;
+    transform: translate(0%, 0%)
+}
+.site3{
+    position: absolute;
+    left: 8vw; top: 120vw;
+    transform: translate(0%, 0%)
+}
+.site4{
+    position: absolute;
+    right: 18vw; top: 180vw;
+    transform: translate(0%, 0%)
+}
+#section3{
+
+    
+}
+#section3 h2{
+    font-family: "Montserrat";
+    font-weight: 800;
+    line-height: 10vw;
+    text-align: center;
+    font-size: 10vw;
+    color: #4E4E4F;
+    opacity: 0.5;
+}
+
