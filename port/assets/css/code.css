@@ -79,9 +79,10 @@ https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+cli
 .site-text p{
     width: 30vw;
     font-size: 1vw;
-    font-family: 'S-CoreDream-4Regular';
+    font-family: 'S-CoreDream-2ExtraLight';
     margin: 1vw 0;
     line-height: 1.5;
+    text-align: justify;
 }
 
 .site-text a{

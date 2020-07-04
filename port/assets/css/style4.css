@@ -629,6 +629,9 @@ body {background: #000;overflow-x: hidden; position: relative; z-index: -10;}
     padding-top: 1vw;
     width: 20vw;
 }
+#section4 .sec4 .sec4-col1:hover .list-link.game{
+    height: 80vh;
+}
 #section4 .sec4 .sec4-col1 .list-link a {
     color: #fff;
     font-size: 2vw;
@@ -639,12 +642,12 @@ body {background: #000;overflow-x: hidden; position: relative; z-index: -10;}
 
 }
 #section4 .sec4 .sec4-col1 .list-link p{
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     color: #fff;
     margin-left: 1vw;
     margin-top: 1vw;
     white-space: pre-line;
-    font-family: 'S-CoreDream-4Regular';
+    font-family: 'S-CoreDream-2ExtraLight';
     line-height: 1.5;
     text-align: justify;
 }
