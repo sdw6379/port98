@@ -118,7 +118,9 @@
             font-family: 'Recipekorea';
         }
 
-        .textWrap {padding-top: 20vh;}
+        .textWrap {
+            padding-top: 20vh;
+        }
 
         .textWrap .line {
             width: 100vw;
@@ -132,7 +134,11 @@
             overflow: hidden;
         }
 
-        .textWrap .line .left .spanWrap {width: 50vw; text-align: center;transform: translate(25vw);}
+        .textWrap .line .left .spanWrap {
+            width: 50vw;
+            text-align: center;
+            transform: translate(25vw);
+        }
 
         .textWrap .line .left .spanWrap span {
             font-size: 5vw;
@@ -144,30 +150,18 @@
             overflow: hidden;
         }
 
-        .textWrap .line .right .spanWrap {width: 50vw; text-align: center;transform: translate(-25vw);}
+        .textWrap .line .right .spanWrap {
+            width: 50vw;
+            text-align: center;
+            transform: translate(-25vw);
+        }
 
         .textWrap .line .right .spanWrap span {
             font-size: 5vw;
         }
-        .spanWrap span{
+
+        .spanWrap span {
             display: inline-block;
-        }
-
-
-
-
-
-        .cursor {
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            z-index: -1;
-            user-select: none;
-            pointer-events: none;
-            background: #fff;
         }
     </style>
 
@@ -263,6 +257,7 @@
     </div>
 
 
+
     <!-- modal -->
 
 
@@ -283,16 +278,16 @@
         // const spanFast = document.querySelectorAll(".spanFast");
 
         // window.addEventListener("mousemove",mouseMove);
-            
 
 
 
-            //x = 컨튼츠 박스의 width()/2 + 왼쪽 여백값
-            //y = 컨튼츠 박스의 height()/2 + 위쪽 여백값
+
+        //x = 컨튼츠 박스의 width()/2 + 왼쪽 여백값
+        //y = 컨튼츠 박스의 height()/2 + 위쪽 여백값
         // function mouseMove(e){
         //     let postion =(e.pageX/(window.innerWidth/2))*100
         //     console.log(postion);
-            
+
 
 
 
@@ -302,34 +297,30 @@
         //     spanFast.forEach((span) =>{
         //         span.style.transform = `translate(${-postion}px)`;
         //     });
-            
 
-            
+
+
         // }
 
 
         const spanSlow = $(".spanSlow")
         const spanFast = $(".spanFast")
 
-        $(window).on("mousemove",mouseMove )
+        $(window).on("mousemove", mouseMove)
 
-        function mouseMove(e){
-            let postion = (e.pageX- ($(window).width()/2))*0.1;
-            spanSlow.css({"transform":"translate("+postion+"px)"})
+        function mouseMove(e) {
+            let postion = (e.pageX - ($(window).width() / 2)) * 0.1;
+            spanSlow.css({
+                "transform": "translate(" + postion + "px)"
+            })
 
 
-            spanFast.css({"transform":"translate("+-postion+"px)"})
-      
+            spanFast.css({
+                "transform": "translate(" + -postion + "px)"
+            })
+
 
         }
-
-
-
-        
-
-
-
-
     </script>
 </body>
 
